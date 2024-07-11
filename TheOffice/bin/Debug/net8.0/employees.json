@@ -1,0 +1,26 @@
+[
+  {
+    "EmployeeId": 1,
+    "Name": "Michael Scott",
+    "DepartmentId": 1,
+    "Position": "Regional Manager"
+  },
+  {
+    "EmployeeId": 2,
+    "Name": "Jim Halpert",
+    "DepartmentId": 2,
+    "Position": "Sales Representative"
+  },
+  {
+    "EmployeeId": 3,
+    "Name": "Pam Beesly",
+    "DepartmentId": 3,
+    "Position": "Receptionist"
+  },
+  {
+    "EmployeeId": 4,
+    "Name": "Dwight Schrute",
+    "DepartmentId": 2,
+    "Position": "Assistant to the Regional Manager"
+  }
+]

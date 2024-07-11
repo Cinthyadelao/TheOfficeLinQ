@@ -1,0 +1,22 @@
+[
+  {
+    "DepartmentId": 1,
+    "Name": "Management",
+    "Employees": []
+  },
+  {
+    "DepartmentId": 2,
+    "Name": "Sales",
+    "Employees": []
+  },
+  {
+    "DepartmentId": 3,
+    "Name": "Reception",
+    "Employees": []
+  },
+  {
+    "DepartmentId": 4,
+    "Name": "Accounting",
+    "Employees": []
+  }
+]

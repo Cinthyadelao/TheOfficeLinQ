@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Employees>
+  <Employee>
+    <EmployeeId>1</EmployeeId>
+    <Name>Michael Scott</Name>
+    <DepartmentId>1</DepartmentId>
+    <Position>Regional Manager</Position>
+  </Employee>
+  <Employee>
+    <EmployeeId>2</EmployeeId>
+    <Name>Jim Halpert</Name>
+    <DepartmentId>2</DepartmentId>
+    <Position>Sales Representative</Position>
+  </Employee>
+  <Employee>
+    <EmployeeId>3</EmployeeId>
+    <Name>Pam Beesly</Name>
+    <DepartmentId>3</DepartmentId>
+    <Position>Receptionist</Position>
+  </Employee>
+  <Employee>
+    <EmployeeId>4</EmployeeId>
+    <Name>Dwight Schrute</Name>
+    <DepartmentId>2</DepartmentId>
+    <Position>Assistant to the Regional Manager</Position>
+  </Employee>
+</Employees>

@@ -1,0 +1,51 @@
+[
+  {
+    "EpisodeId": 1,
+    "Title": "Pilot",
+    "Season": 1,
+    "EpisodeNumber": 1,
+    "EmployeeIds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "Employees": []
+  },
+  {
+    "EpisodeId": 2,
+    "Title": "Diversity Day",
+    "Season": 1,
+    "EpisodeNumber": 2,
+    "EmployeeIds": [
+      1,
+      2,
+      3
+    ],
+    "Employees": []
+  },
+  {
+    "EpisodeId": 3,
+    "Title": "Health Care",
+    "Season": 1,
+    "EpisodeNumber": 3,
+    "EmployeeIds": [
+      1,
+      4
+    ],
+    "Employees": []
+  },
+  {
+    "EpisodeId": 4,
+    "Title": "The Dundies",
+    "Season": 2,
+    "EpisodeNumber": 1,
+    "EmployeeIds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "Employees": []
+  }
+]

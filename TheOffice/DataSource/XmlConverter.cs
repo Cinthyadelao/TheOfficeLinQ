@@ -20,7 +20,7 @@ namespace TheOffice.DataSource
             );
 
             departmentsXml.Save("departments.xml");
-            Console.WriteLine("Departments list converted to XML.");
+            Console.WriteLine("Liste des départements convertie en XML.");
 
             // Convertir la liste des employés en XML
             var employees = ListEmployeeData.Employees;
@@ -35,7 +35,7 @@ namespace TheOffice.DataSource
             );
 
             employeesXml.Save("employees.xml");
-            Console.WriteLine("Employees list converted to XML.");
+            Console.WriteLine("Liste des employés convertie en XML.");
 
             // Convertir la liste des épisodes en XML
             var episodes = ListEpisodeData.Episodes;
@@ -54,7 +54,7 @@ namespace TheOffice.DataSource
             );
 
             episodesXml.Save("episodes.xml");
-            Console.WriteLine("Episodes list converted to XML.");
+            Console.WriteLine("Liste des épisodes convertie en XML.");
         }
     }
 }

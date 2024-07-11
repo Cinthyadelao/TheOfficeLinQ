@@ -9,7 +9,8 @@ namespace TheOffice.DataSource
     public class Department
     {
         public int DepartmentId { get; set; }
-        public string Name { get; set; }
-        public virtual List<Employee> Employees { get; set; } 
+        public string Name { get; set; } = string.Empty; // Valeur par défaut
+        public virtual List<Employee> Employees { get; set; } = new List<Employee>(); // Valeur par défaut
     }
 }
+
