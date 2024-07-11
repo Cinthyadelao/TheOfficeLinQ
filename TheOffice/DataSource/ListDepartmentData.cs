@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TheOffice.DataSource
 {
-    internal class ListDepartamentData
+    internal class ListDepartmentData
     {
         public static List<Department> Departments = new List<Department>
     {
