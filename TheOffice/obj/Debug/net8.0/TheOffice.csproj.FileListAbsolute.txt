@@ -1,0 +1,15 @@
+C:\Users\cinth\source\repos\TheOffice\TheOffice\obj\Debug\net8.0\TheOffice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cinth\source\repos\TheOffice\TheOffice\obj\Debug\net8.0\TheOffice.AssemblyInfoInputs.cache
+C:\Users\cinth\source\repos\TheOffice\TheOffice\obj\Debug\net8.0\TheOffice.AssemblyInfo.cs
+C:\Users\cinth\source\repos\TheOffice\TheOffice\obj\Debug\net8.0\TheOffice.csproj.CoreCompileInputs.cache
+C:\Users\cinth\source\repos\TheOffice\TheOffice\obj\Debug\net8.0\TheOffice.sourcelink.json
+C:\Users\cinth\source\repos\TheOffice\TheOffice\bin\Debug\net8.0\TheOffice.exe
+C:\Users\cinth\source\repos\TheOffice\TheOffice\bin\Debug\net8.0\TheOffice.deps.json
+C:\Users\cinth\source\repos\TheOffice\TheOffice\bin\Debug\net8.0\TheOffice.runtimeconfig.json
+C:\Users\cinth\source\repos\TheOffice\TheOffice\bin\Debug\net8.0\TheOffice.dll
+C:\Users\cinth\source\repos\TheOffice\TheOffice\bin\Debug\net8.0\TheOffice.pdb
+C:\Users\cinth\source\repos\TheOffice\TheOffice\obj\Debug\net8.0\TheOffice.dll
+C:\Users\cinth\source\repos\TheOffice\TheOffice\obj\Debug\net8.0\refint\TheOffice.dll
+C:\Users\cinth\source\repos\TheOffice\TheOffice\obj\Debug\net8.0\TheOffice.pdb
+C:\Users\cinth\source\repos\TheOffice\TheOffice\obj\Debug\net8.0\TheOffice.genruntimeconfig.cache
+C:\Users\cinth\source\repos\TheOffice\TheOffice\obj\Debug\net8.0\ref\TheOffice.dll
