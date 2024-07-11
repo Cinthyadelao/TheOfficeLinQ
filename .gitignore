@@ -1,0 +1,7 @@
+# Visual Studio
+.vscode/
+.vs/
+*.vscode
+*.vs
+.vscode/*
+.vs/*
