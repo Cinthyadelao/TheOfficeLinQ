@@ -9,6 +9,8 @@ namespace TheOffice.DataSource
     public static class Searcher
     {
         public static void SearchInXml(string searchTerm)
+        /*Tri dans SearchInXml: ajouté orderby emp.Element("Name")?.Value 
+        dans la requête LINQ pour trier les résultats par le nom des employés.*/
         {
             if (string.IsNullOrEmpty(searchTerm))
             {
@@ -19,6 +21,7 @@ namespace TheOffice.DataSource
             var xmlDoc = XDocument.Load("employees.xml");
             var employees = from emp in xmlDoc.Descendants("Employee")
                             where emp.Element("Name")?.Value.Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase) == true
+                            orderby emp.Element("Name")?.Value // Tri par nom
                             select emp;
 
             Console.WriteLine("Résultats de recherche dans les employés (XML):");
@@ -28,7 +31,10 @@ namespace TheOffice.DataSource
             }
         }
 
+
         public static void SearchInJson(string searchTerm)
+            /* Tri dans SearchInJson: ajouté .OrderBy(emp => (string)emp["Name"]) après la méthode Where 
+             * pour trier les résultats par le nom des employés.*/
         {
             if (string.IsNullOrEmpty(searchTerm))
             {
@@ -38,7 +44,9 @@ namespace TheOffice.DataSource
 
             var jsonText = File.ReadAllText("employees.json");
             var jsonObj = JObject.Parse(jsonText);
-            var employees = jsonObj["Employees"]?.Where(emp => ((string)emp["Name"]).Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase));
+            var employees = jsonObj["Employees"]
+                             ?.Where(emp => ((string)emp["Name"]).Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase))
+                             .OrderBy(emp => (string)emp["Name"]); // Tri par nom
 
             if (employees == null)
             {
