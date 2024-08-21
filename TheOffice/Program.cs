@@ -23,7 +23,7 @@ namespace TheOffice
             Console.ReadKey();
 
             ShowAnimation();
-            Console.WriteLine("Vous voulez savoir qui est \"the start\"?? regardez les acteurs qu'ont joue a minimun ce numero d'episodes:)");
+            Console.WriteLine("Vous voulez savoir qui est \"the star\"?? regardez les acteurs qu'ont joue a minimun ce numero d'episodes:)");
             ShowCharactersByMinimumEpisodeCount();
             Console.WriteLine("Appuyez sur une touche pour quitter...");
             Console.ReadKey();
